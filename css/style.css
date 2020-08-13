@@ -1,60 +1,25 @@
-main {
-  width: 80%;
-  border: 5px solid #FF7A5A; }
+nav {
+  background: #EFF3F4;
+  width: auto;
+  height: 100px;
+  text-align: center;
+  position: absolute; }
+  nav ul {
+    padding: 25px; }
+    nav ul li {
+      list-style: none;
+      display: inline;
+      margin: 145px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      color: #1E3141; }
+      nav ul li a:link {
+        color: #1E3141;
+        text-decoration: none; }
 
-.heading__text {
-  color: #462066;
-  margin: 50px 20px;
-  text-shadow: 2px 2px 4px #000000;
-  font-size: 50px;
-  text-align: center; }
-
-.paragraph__container {
-  border: 2px solid #FF7A5A;
-  padding: 2px;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 50px 20px;
-  color: #462066;
-  line-height: 30px;
-  background: #FCF4D9;
-  border-radius: 10%;
-  width: 60%;
-  float: left;
-  height: 300px;
-  overflow: scroll; }
-
-.img__container {
-  width: 60%;
-  float: right;
-  height: 300px;
-  overflow: scroll; }
-
-.img__cake {
-  width: 100%;
-  margin: 50px 20px;
-  border-radius: 10%; }
-
-section::after {
-  clear: left; }
-
-.ingredients {
-  border: 1px solid #FF7A5A;
-  border-radius: 10%;
-  width: 60%;
-  line-height: 30px;
-  margin: 50px 20px;
-  color: #FCF4D9;
-  background: #462066;
-  float: left;
-  height: 300px;
-  overflow: scroll; }
-
-.ingredients__heading {
-  margin: 18px;
-  color: #fff; }
-
-.ingredients__list {
-  list-style: none; }
+* {
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */

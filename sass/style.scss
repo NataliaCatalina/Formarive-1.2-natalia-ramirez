@@ -1,79 +1,61 @@
-$text-color: #462066; //variables start with $
-$back-color: #FCF4D9; //no space between two words
-$border-color: #FF7A5A; //use camel case or hyphenated words
-$margin-all: 3px; //be consistent in the use of name stylesheet
-$padding-all: 2px; // always write variable on the introPara
-$font-size: 20px;
-$margin-allBig: 50px 20px;
-$line-height: 30px;
+@import 'variables';
+@import 'nav';
 
 
-body{
-  //variable usage called key:value pair
-
+*{
+  margin: 0;
+  padding: 0;
+  // box-sizing: border-box;
 }
-main{
-  width: 80%;
-  border: 5px solid $border-color;
-}
-
-.heading__text {
-  color: $text-color;
-  margin: $margin-allBig;
-  text-shadow: 2px 2px 4px #000000;
-  font-size: 50px;
-  text-align: center;
-}
-
-.paragraph__container {
-  border: 2px solid $border-color;
-  padding: $padding-all;
-  font-size: $font-size;
-  font-weight: bold;
-  margin: $margin-allBig;
-  color: $text-color;
-  line-height: $line-height;
-  background: $back-color;
-  border-radius: 10%;
-  width:60%;
-  float:left;
-  height: 300px;
-  overflow: scroll;
-}
-
-.img__container{
-  width: 60%;
-  float: right;
-  height: 300px;
-  overflow: scroll;
-}
-
-.img__cake{
-  width: 100%;
-  margin: $margin-allBig;
-  border-radius: 10%;
-}
-section::after{
-  clear: left;
-}
-.ingredients {
-  border: 1px solid $border-color;
-  border-radius: 10%;
-  width:60%;
-  line-height: $line-height;
-  margin : $margin-allBig;
-  color: $back-color;
-  background: $text-color;
-  float:left;
-  height: 300px;
-  overflow: scroll;
-}
-
-.ingredients__heading{
-  margin: 6*$margin-all;
-  color:#fff;
-}
-
-.ingredients__list{
-  list-style: none;
-}
+// .paragraph__container {
+//   border: 2px solid $border-color;
+//   padding: $padding-all;
+//   font-size: $font-size;
+//   font-weight: bold;
+//   margin: $margin-allBig;
+//   color: $text-color;
+//   line-height: $line-height;
+//   background: $back-color;
+//   border-radius: 10%;
+//   width:60%;
+//   float:left;
+//   height: 300px;
+//   overflow: scroll;
+// }
+//
+// .img__container{
+//   width: 60%;
+//   float: right;
+//   height: 300px;
+//   overflow: scroll;
+// }
+//
+// .img__cake{
+//   width: 100%;
+//   margin: $margin-allBig;
+//   border-radius: 10%;
+// }
+// section::after{
+//   clear: left;
+// }
+// .ingredients {
+//   border: 1px solid $border-color;
+//   border-radius: 10%;
+//   width:60%;
+//   line-height: $line-height;
+//   margin : $margin-allBig;
+//   color: $back-color;
+//   background: $text-color;
+//   float:left;
+//   height: 300px;
+//   overflow: scroll;
+// }
+//
+// .ingredients__heading{
+//   margin: 6*$margin-all;
+//   color:#fff;
+// }
+//
+// .ingredients__list{
+//   list-style: none;
+// }
