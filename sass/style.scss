@@ -1,12 +1,19 @@
 @import 'variables';
 @import 'nav';
+@import 'logo';
 
 
 *{
   margin: 0;
   padding: 0;
-  // box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
 }
+
+header{
+  background: $light-blue-color;
+}
+
 body{
   height: 100%;
 }

@@ -1,0 +1,16 @@
+.block{
+  position: absolute;
+  width: 1279px;
+  height: 342px;
+  left: 0px;
+  top: 361px;
+  background: $light-blue-color;
+}
+
+.logo{
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+  // z-index : -1;/*send backward*/
+ // position : absolute;
+}
