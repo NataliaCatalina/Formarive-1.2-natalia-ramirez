@@ -5,12 +5,13 @@
   left: 0px;
   top: 361px;
   background: $light-blue-color;
+   z-index : -1;/*send backward*/
+  position : absolute;
 }
 
 .logo{
   display: block;
   margin: 0 auto;
   padding-top: 50px;
-  // z-index : -1;/*send backward*/
- // position : absolute;
+
 }

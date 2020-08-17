@@ -25,7 +25,10 @@ nav {
   height: 342px;
   left: 0px;
   top: 361px;
-  background: #7DCDE3; }
+  background: #7DCDE3;
+  z-index: -1;
+  /*send backward*/
+  position: absolute; }
 
 .logo {
   display: block;
