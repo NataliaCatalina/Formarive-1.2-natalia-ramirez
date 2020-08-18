@@ -1,23 +1,53 @@
 .quote{
-  position: absolute;
+  // position: absolute;
   width: 100%;
-  height: 292px;
-  left: 0px;
-  top: 959px;
+  // height: 292px;
+  // left: 0px;
+  // top: 959px;
   background: $gray-color;
 }
 
 .quote h2{
+  color: $blue-color;
   // position: absolute;
   width: 60%;
   // height: 183px;
   // left: 190px;
   font-family: Nunito;
   font-style: italic;
+  text-align: center;
   // font-weight: 600;
   // font-size: 24px;
   line-height: 33px;
   // text-align: center;
   margin: auto;
-  border: solid 1px red,
+  padding-top: 60px;
+  padding-bottom: 60px;
+  // border: solid 1px red,
+}
+
+.introduction__text--container{
+  background: $gray-color;
+}
+
+.text-container{
+  color: $blue-color;
+  padding-top: 60px;
+  // font-size: 19px
+}
+
+.text-container h1{
+  text-align: center;
+  // color: $blue-color;
+  padding-bottom: 50px;
+  font-weight: bold;
+ // font-size: 48px;
+}
+
+.text__container--iyengar1{
+
+  // width: 445px;
+  // height: 293px;
+  // left: 262px;
+  // top: 1754px;
 }

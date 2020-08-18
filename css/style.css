@@ -1,10 +1,11 @@
-.block {
+.blue-block {
   position: absolute;
   width: 1500px;
   height: 342px;
   left: 0px;
   top: 361px;
   background: #7DCDE3;
+  opacity: 80%;
   z-index: -1;
   /*send backward*/
   position: absolute; }
@@ -15,20 +16,40 @@
   padding-top: 50px; }
 
 .quote {
-  position: absolute;
   width: 100%;
-  height: 292px;
-  left: 0px;
-  top: 959px;
   background: #EFF3F4; }
 
 .quote h2 {
+  color: #1E3141;
   width: 60%;
   font-family: Nunito;
   font-style: italic;
+  text-align: center;
   line-height: 33px;
   margin: auto;
-  border: solid 1px red; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.introduction__text--container {
+  background: #EFF3F4; }
+
+.text-container {
+  color: #1E3141;
+  padding-top: 60px; }
+
+.text-container h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: bold; }
+
+.iyengar__images--container {
+  width: 60%;
+  margin: auto; }
+
+.iyengar-images {
+  width: 32%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 nav {
   background: #EFF3F4;
