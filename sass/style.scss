@@ -1,14 +1,13 @@
 @import 'variables';
-@import 'nav';
 @import 'logo';
+@import 'intro';
+@import "team";
+@import 'images';
+@import 'desktop';
+@import 'timetable';
 
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Nunito', sans-serif;
-}
+
 
 header{
   background: $light-blue-color;
@@ -17,55 +16,3 @@ header{
 body{
   height: 100%;
 }
-// .paragraph__container {
-//   border: 2px solid $border-color;
-//   padding: $padding-all;
-//   font-size: $font-size;
-//   font-weight: bold;
-//   margin: $margin-allBig;
-//   color: $text-color;
-//   line-height: $line-height;
-//   background: $back-color;
-//   border-radius: 10%;
-//   width:60%;
-//   float:left;
-//   height: 300px;
-//   overflow: scroll;
-// }
-//
-// .img__container{
-//   width: 60%;
-//   float: right;
-//   height: 300px;
-//   overflow: scroll;
-// }
-//
-// .img__cake{
-//   width: 100%;
-//   margin: $margin-allBig;
-//   border-radius: 10%;
-// }
-// section::after{
-//   clear: left;
-// }
-// .ingredients {
-//   border: 1px solid $border-color;
-//   border-radius: 10%;
-//   width:60%;
-//   line-height: $line-height;
-//   margin : $margin-allBig;
-//   color: $back-color;
-//   background: $text-color;
-//   float:left;
-//   height: 300px;
-//   overflow: scroll;
-// }
-//
-// .ingredients__heading{
-//   margin: 6*$margin-all;
-//   color:#fff;
-// }
-//
-// .ingredients__list{
-//   list-style: none;
-// }

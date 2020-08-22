@@ -1,3 +1,132 @@
+.blue-block {
+  position: absolute;
+  width: 1500px;
+  height: 342px;
+  left: 0px;
+  top: 361px;
+  background: #7DCDE3;
+  opacity: 80%;
+  z-index: -1;
+  /*send backward*/
+  position: absolute; }
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif; }
+
+.quote {
+  width: 100%;
+  background: #EFF3F4; }
+
+.quote h2 {
+  color: #1E3141;
+  width: 60%;
+  font-family: Nunito;
+  font-style: italic;
+  text-align: center;
+  line-height: 33px;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.introduction__row--container {
+  background: #EFF3F4;
+  width: 100%;
+  height: auto; }
+
+.iyengar__row--container {
+  background: #EFF3F4;
+  width: 100%;
+  padding-top: 60px; }
+
+.introduction__row--container h1 {
+  text-align: center;
+  padding-top: 60px; }
+
+.text__container--iyengar1, .text__container--iyengar2 {
+  float: left;
+  width: 50%;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 26px; }
+  .text__container--iyengar1 p, .text__container--iyengar2 p {
+    width: 60%; }
+
+.text__container--iyengar1 p {
+  float: right;
+  margin-right: 50px; }
+
+.text__container--iyengar2 p {
+  float: left;
+  margin-left: 50px; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.about-container {
+  width: 67%;
+  margin: auto; }
+  .about-container h1 {
+    padding-bottom: 60px; }
+
+.about-container p {
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 26px; }
+
+.introduction__row--team {
+  background: #EFF3F4;
+  width: 100%; }
+  .introduction__row--team h1 {
+    text-align: center;
+    padding-top: 60px; }
+
+.col__team {
+  background: #EFF3F4;
+  float: left;
+  padding: 10px;
+  margin: 0%; }
+
+.col__team--border {
+  width: 90%;
+  margin: auto; }
+
+.col__teacher {
+  width: 33.1%;
+  float: left;
+  padding: 5%;
+  height: 820px; }
+  .col__teacher h2 {
+    text-align: center;
+    margin-bottom: 5%; }
+    .col__teacher h2 p {
+      font-size: 19px;
+      line-height: 26px; }
+
+.line {
+  border: 1px solid black;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5%; }
+
+.iyengar__images--container {
+  width: 60%;
+  margin: auto; }
+
+.iyengar-images {
+  width: 32%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
 nav {
   background: #EFF3F4;
   padding: 20px;
@@ -19,44 +148,55 @@ nav {
         color: #1E3141;
         text-decoration: none; }
 
-.block {
-  position: absolute;
-  width: 1500px;
-  height: 342px;
-  left: 0px;
-  top: 361px;
-  background: #7DCDE3;
-  z-index: -1;
-  /*send backward*/
-  position: absolute; }
-
-.logo {
-  display: block;
-  margin: 0 auto;
-  padding-top: 50px; }
-
-.quote {
-  position: absolute;
+.iyengar__timetable {
   width: 100%;
-  height: 4814px;
-  left: 0px;
-  top: 915px;
+  height: auto; }
+
+.iyengar__calendar {
+  width: 80%;
+  margin: auto; }
+  .iyengar__calendar h1 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px; }
+
+.week-calendar {
   background: #EFF3F4; }
 
-.quote h2 {
-  position: absolute;
-  width: 1040px;
-  left: 190px;
-  font-family: Nunito;
-  font-style: italic;
-  line-height: 33px;
-  text-align: center; }
+.weekday {
+  background: #1E3141;
+  color: white;
+  padding: 2% 0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.015em; }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Nunito', sans-serif; }
+.message-header {
+  background: #7DCDE3;
+  color: white;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 128.91%;
+  letter-spacing: -0.015em;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  padding: 5%;
+  margin: 0.1%; }
+
+.message-text {
+  background: white;
+  font-size: 14px;
+  border-radius: 0 0 10px 10px;
+  padding: 5%;
+  margin: 0.1%; }
+
+.class__descriptions {
+  text-align: center;
+  color: #1E3141;
+  font-weight: bold;
+  padding-bottom: 5%;
+  font-size: 14px; }
 
 header {
   background: #7DCDE3; }

@@ -1,11 +1,12 @@
-.block{
+.blue-block{
   position: absolute;
   width: 1500px;
   height: 342px;
   left: 0px;
   top: 361px;
   background: $light-blue-color;
-   z-index : -1;/*send backward*/
+  opacity: 80%;
+  z-index : -1;/*send backward*/
   position : absolute;
 }
 
@@ -13,28 +14,4 @@
   display: block;
   margin: 0 auto;
   padding-top: 50px;
-
-}
-
-.quote{
-  position: absolute;
-  width: 100%;
-  height: 4814px;
-  left: 0px;
-  top: 915px;
-  background: $gray-color;
-}
-
-.quote h2{
-  position: absolute;
-  width: 1040px;
-  // height: 183px;
-  left: 190px;
-  // top: 1002px;
-  font-family: Nunito;
-  font-style: italic;
-  // font-weight: 600;
-  // font-size: 24px;
-  line-height: 33px;
-  text-align: center;
 }

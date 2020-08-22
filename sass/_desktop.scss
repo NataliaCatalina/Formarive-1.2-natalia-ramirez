@@ -1,0 +1,30 @@
+@media screen and (min-width: 501px){
+
+  }
+
+  nav {
+    background: $gray-color;
+    padding: 20px;
+    height: 100px;
+    display: block;
+    ul {
+      text-align: center;
+      padding:20px;
+      li {
+        font-size: 20px;
+        list-style: none;
+        display: inline;
+        margin: 145px;
+        // font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: $blue-color;
+        // line-height: 24px;
+        a:link{
+          color:$blue-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }

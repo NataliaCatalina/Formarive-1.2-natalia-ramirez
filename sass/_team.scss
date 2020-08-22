@@ -1,0 +1,49 @@
+.introduction__row--team{
+  background: $gray-color;
+  width: 100%;
+  h1{
+    text-align: center;
+    padding-top: 60px;
+  }
+}
+
+.col__team {
+  background: $gray-color;
+  float:left;
+  padding: 10px;
+  margin:0%;
+  // border: 1px solid red;
+  // display: inline-block;
+}
+
+.col__team--border{
+  width: 90%;
+  margin: auto;
+  // border: 1px solid blue;
+}
+
+.col__teacher{
+ width: 33.1%;
+ // border: 1px solid green;
+ float: left;
+ // display: inline-block;
+ padding: 5%;
+ height: 820px;
+ // height: 50%;
+ h2{
+   text-align: center;
+   margin-bottom: 5%;
+   // border-bottom: 2px solid black,
+   p{
+     font-size: 19px;
+     line-height: 26px;
+   }
+
+   }
+}
+.line{
+  border:1px solid black;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5%;
+}
