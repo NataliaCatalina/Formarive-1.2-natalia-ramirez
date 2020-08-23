@@ -278,6 +278,50 @@ nav {
   text-align: center;
   margin-top: 40%; }
 
+.extra__info--wrapper {
+  width: 80%;
+  height: 500px;
+  border: 1px solid green;
+  margin: 0 auto; }
+
+.things-to-know {
+  width: 40%;
+  height: auto;
+  border: 1px solid black;
+  float: left; }
+  .things-to-know h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #1E3141;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .things-to-know h1 p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 21px;
+      line-height: 29px; }
+
+.iyengar__contact--container {
+  border: 1px solid blue;
+  width: 100%;
+  height: auto; }
+
+.contact--container {
+  width: 80%;
+  height: auto;
+  border: 1px solid red;
+  margin: auto; }
+
+.content-wrapper {
+  text-align: center;
+  width: 80%;
+  height: 399px;
+  border: 1px solid green;
+  margin: 0 auto; }
+
 * {
   margin: 0;
   padding: 0;
