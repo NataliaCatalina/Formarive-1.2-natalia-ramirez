@@ -15,12 +15,6 @@
   margin: 0 auto;
   padding-top: 50px; }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Nunito', sans-serif; }
-
 .quote {
   width: 100%;
   background: #EFF3F4; }
@@ -44,10 +38,6 @@
 .iyengar__row--container {
   background: #EFF3F4;
   width: 100%;
-  padding-top: 60px; }
-
-.introduction__row--container h1 {
-  text-align: center;
   padding-top: 60px; }
 
 .text__container--iyengar1, .text__container--iyengar2 {
@@ -198,10 +188,97 @@ nav {
   padding-bottom: 5%;
   font-size: 14px; }
 
+.iyengar__membership--container {
+  border: 1px solid blue;
+  width: 100%;
+  height: auto; }
+
+.membership--container {
+  width: 80%;
+  height: auto;
+  border: 1px solid red;
+  margin: auto; }
+
+.membership-wrapper {
+  text-align: center;
+  width: 80%;
+  height: 399px;
+  border: 1px solid green;
+  margin: 0 auto; }
+
+.membership-box {
+  width: 14%;
+  height: 80%;
+  margin: 0 auto;
+  display: inline-block;
+  margin-left: 20px;
+  background-color: white;
+  border: 1px solid #B4B2B5;
+  border-radius: 5px; }
+
+.class-card {
+  margin: 25px auto;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: white;
+  background-color: #1E3141; }
+
+.membership-content {
+  color: #898989;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  list-style-type: none; }
+
+.extra-note {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  color: #898989;
+  position: absolute;
+  margin-top: 3%;
+  width: 10%; }
+
+.buy-btn {
+  text-decoration: none;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #7DCDE3;
+  text-align: center;
+  margin-top: 40%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif; }
+
 header {
   background: #7DCDE3; }
 
 body {
   height: 100%; }
+
+.iyengar__content--title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  color: #1E3141;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,9 +5,15 @@
 @import 'images';
 @import 'desktop';
 @import 'timetable';
+@import 'pricing';
 
 
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
 
 header{
   background: $light-blue-color;
@@ -15,4 +21,16 @@ header{
 
 body{
   height: 100%;
+}
+
+
+.iyengar__content--title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  color: $blue-color;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
