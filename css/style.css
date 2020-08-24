@@ -1,17 +1,29 @@
+.header {
+  overflow: auto; }
+
 .blue-block {
-  position: absolute;
   width: 80%;
   height: 342px;
-  top: 361px;
   background: #7DCDE3;
-  opacity: 80%;
   z-index: -1;
-  /*send backward*/ }
+  /*send backward*/
+  float: left;
+  margin-top: 220px;
+  margin-bottom: 220px; }
+
+.socials {
+  width: 20%;
+  float: left;
+  margin-top: 220px; }
 
 .logo {
-  display: block;
-  margin: 0 auto;
-  padding-top: 50px; }
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  top: 140px; }
 
 .socials a {
   width: 20%;
@@ -19,7 +31,7 @@
   text-align: center;
   padding: 16px;
   font-size: 35px;
-  margin-left: 1480px;
+  margin-right: 1480px;
   margin-top: 20px; }
 
 .facebook {
@@ -136,6 +148,9 @@
   padding-top: 50px;
   padding-bottom: 50px; }
 
+body {
+  background-color: white; }
+
 nav {
   background: #EFF3F4;
   padding: 20px;
@@ -207,6 +222,12 @@ nav {
   padding-bottom: 5%;
   font-size: 14px; }
 
+.calendar__events--friday {
+  margin-top: -300px; }
+
+.calendar__events--saturday {
+  margin-top: -150px; }
+
 .iyengar__membership--container {
   border: 1px solid blue;
   width: 100%;
@@ -226,6 +247,7 @@ nav {
   margin: 0 auto; }
 
 .membership-box {
+  vertical-align: top;
   width: 14%;
   height: 80%;
   margin: 0 auto;
@@ -285,7 +307,7 @@ nav {
   margin: 0 auto; }
 
 .things-to-know {
-  width: 40%;
+  width: 50%;
   height: auto;
   border: 1px solid black;
   float: left; }
@@ -303,6 +325,30 @@ nav {
       font-weight: normal;
       font-size: 21px;
       line-height: 29px; }
+
+.yoga__gift--vouchers {
+  width: 50%;
+  height: auto;
+  border: 1px solid red;
+  float: left; }
+  .yoga__gift--vouchers h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #1E3141;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .yoga__gift--vouchers h1 p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 21px;
+      line-height: 29px; }
+
+.vouchers-photo {
+  width: 100%;
+  margin-top: -100px; }
 
 .iyengar__contact--container {
   border: 1px solid blue;

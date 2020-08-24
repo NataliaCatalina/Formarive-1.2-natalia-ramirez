@@ -24,6 +24,7 @@
 }
 
 .membership-box{
+  vertical-align: top;
   width:14%;
   // height: 300px;
   height: 80%;
@@ -102,7 +103,7 @@
 }
 
 .things-to-know{
-  width:40%;
+  width:50%;
   height: auto;
   border: 1px solid black;
   float: left;
@@ -122,4 +123,32 @@
       line-height: 29px;
     }
   }
+}
+
+.yoga__gift--vouchers{
+  width:50%;
+  height: auto;
+  border: 1px solid red;
+  float: left;
+    h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: $blue-color;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    p{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 21px;
+      line-height: 29px;
+    }
+  }
+}
+
+.vouchers-photo{
+ width: 100%;
+ margin-top: -100px;
 }
