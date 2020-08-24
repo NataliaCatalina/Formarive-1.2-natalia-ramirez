@@ -1,5 +1,5 @@
 .iyengar__membership--container{
-  border: 1px solid blue;
+  // border: 1px solid blue;
   width: 100%;
   height: auto;
 }
@@ -7,7 +7,7 @@
 .membership--container{
   width: 80%;
   height: auto;
-  border: 1px solid red;
+  // border: 1px solid red;
   margin: auto;
 
 
@@ -18,7 +18,7 @@
   text-align:center;
   width:80%;
   height: 399px;
-  border: 1px solid green;
+  // border: 1px solid green;
   margin: 0 auto;
 
 }
@@ -96,16 +96,16 @@
 .extra__info--wrapper {
   // margin:20px auto;
   // text-align:center;
-  width:80%;
+  width:60%;
   height: 500px;
-  border: 1px solid green;
+  // border: 1px solid green;
   margin: 0 auto;
 }
 
 .things-to-know{
-  width:50%;
+  width:40%;
   height: auto;
-  border: 1px solid black;
+  // border: 1px solid black;
   float: left;
     h1{
     font-style: normal;
@@ -126,10 +126,12 @@
 }
 
 .yoga__gift--vouchers{
-  width:50%;
+  width:40%;
   height: auto;
-  border: 1px solid red;
-  float: left;
+  // margin: 0 10%;
+  float: right;
+  // border: 1px solid red;
+  margin: 0 auto;
     h1{
     font-style: normal;
     font-weight: bold;
@@ -149,6 +151,6 @@
 }
 
 .vouchers-photo{
- width: 100%;
- margin-top: -100px;
+ width: 130%;
+  // margin-top: -100px;
 }

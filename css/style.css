@@ -18,6 +18,7 @@
 
 .logo {
   position: absolute;
+  width: auto;
   margin: auto;
   left: 0;
   right: 0;
@@ -229,21 +230,18 @@ nav {
   margin-top: -150px; }
 
 .iyengar__membership--container {
-  border: 1px solid blue;
   width: 100%;
   height: auto; }
 
 .membership--container {
   width: 80%;
   height: auto;
-  border: 1px solid red;
   margin: auto; }
 
 .membership-wrapper {
   text-align: center;
   width: 80%;
   height: 399px;
-  border: 1px solid green;
   margin: 0 auto; }
 
 .membership-box {
@@ -301,15 +299,13 @@ nav {
   margin-top: 40%; }
 
 .extra__info--wrapper {
-  width: 80%;
+  width: 60%;
   height: 500px;
-  border: 1px solid green;
   margin: 0 auto; }
 
 .things-to-know {
-  width: 50%;
+  width: 40%;
   height: auto;
-  border: 1px solid black;
   float: left; }
   .things-to-know h1 {
     font-style: normal;
@@ -327,10 +323,10 @@ nav {
       line-height: 29px; }
 
 .yoga__gift--vouchers {
-  width: 50%;
+  width: 40%;
   height: auto;
-  border: 1px solid red;
-  float: left; }
+  float: right;
+  margin: 0 auto; }
   .yoga__gift--vouchers h1 {
     font-style: normal;
     font-weight: bold;
@@ -347,13 +343,13 @@ nav {
       line-height: 29px; }
 
 .vouchers-photo {
-  width: 100%;
-  margin-top: -100px; }
+  width: 130%; }
 
 .iyengar__contact--container {
   border: 1px solid blue;
   width: 100%;
-  height: auto; }
+  height: auto;
+  margin-top: 10%; }
 
 .contact--container {
   width: 80%;
@@ -366,6 +362,20 @@ nav {
   width: 80%;
   height: 399px;
   border: 1px solid green;
+  margin: 0 auto; }
+
+.info-form {
+  width: 50%;
+  height: 100%;
+  border: 1px solid orange;
+  float: left;
+  margin: 0 auto; }
+
+.address-map {
+  width: 50%;
+  height: 100px;
+  border: 1px solid purple;
+  float: left;
   margin: 0 auto; }
 
 * {

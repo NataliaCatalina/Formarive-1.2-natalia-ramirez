@@ -2,6 +2,7 @@
   border: 1px solid blue;
   width: 100%;
   height: auto;
+  margin-top: 10%;
 }
 
 .contact--container{
@@ -16,5 +17,22 @@
   width:80%;
   height: 399px;
   border: 1px solid green;
+  margin: 0 auto;
+}
+
+.info-form{
+  width: 50%;
+  height: 100%;
+  border: 1px solid orange;
+  float: left;
+  margin: 0 auto;
+
+}
+
+.address-map{
+  width: 50%;
+  height: 100px;
+  border: 1px solid purple;
+  float: left;
   margin: 0 auto;
 }
