@@ -1,0 +1,51 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 500px){
+
+
+  .top__navegation--menu{
+    // border: 1px solid black;
+    display: none;
+    .top__navegation--list{
+      margin: 0 10px;
+      border: 1px solid maroon;
+      color: $icon-font-colour;
+      .nav-list{
+        list-style: none;
+        height: 40px;
+        width:100%;
+        background: pink;
+        margin: 1% 0;
+        text-align:center;
+        // border: 1px solid maroon;
+        font-size: 1.2rem;
+        font-weight: bold;
+        a:link{
+          color: maroon;
+          text-decoration: none;
+
+        }
+      }
+    }
+  }
+
+.menu-icon-container{
+  float:left;
+  padding:10px 0;
+  @include dimension(50%,100px);
+  // border: 1px solid blue;
+}
+
+.menu-icon{
+  font-size: 45px;
+  color: $blue-color;
+  margin: 10px;
+  float:right;
+}
+
+}//mobile media query ends here
