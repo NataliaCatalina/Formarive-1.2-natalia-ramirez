@@ -169,7 +169,7 @@ body {
       font-size: 20px;
       list-style: none;
       display: inline;
-      margin: 5%;
+      margin: 8%;
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
@@ -219,7 +219,7 @@ body {
   border-radius: 0 0 10px 10px; }
 
 .tableCol {
-  width: 14%;
+  width: 14.28%;
   float: left;
   background: #1E3141; }
   .tableCol h1 {

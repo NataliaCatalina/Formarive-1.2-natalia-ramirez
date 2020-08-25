@@ -19,12 +19,13 @@
 .tableRow{
  width:100%;
  height: auto;
+ // border:1px solid pink;
  background: $gray-color;
  border-radius: 0 0 10px 10px;
 }
 
 .tableCol{
- width:14%;
+ width:14.28%;
  float:left;
  background: $blue-color;
  h1{
