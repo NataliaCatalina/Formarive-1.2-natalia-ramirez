@@ -18,7 +18,7 @@
 
 .logo {
   position: absolute;
-  width: auto;
+  width: 35%;
   margin: auto;
   left: 0;
   right: 0;
@@ -107,19 +107,22 @@
 
 .introduction__row--team {
   background: #EFF3F4;
-  width: 100%; }
+  width: 100%;
+  height: auto; }
   .introduction__row--team h1 {
     text-align: center;
     padding-top: 60px; }
 
 .col__team {
   background: #EFF3F4;
+  height: auto;
   float: left;
   padding: 10px;
   margin: 0%; }
 
 .col__team--border {
   width: 90%;
+  height: auto;
   margin: auto; }
 
 .col__teacher {
@@ -229,7 +232,7 @@
           text-decoration: none; }
 
   .menu-icon-container {
-    float: left;
+    float: right;
     padding: 10px 0;
     width: 50%;
     height: 100px; }
@@ -360,7 +363,7 @@
   font-size: 13px;
   line-height: 18px;
   color: #898989;
-  margin-top: 25%;
+  margin-top: 30%;
   width: 100%; }
 
 .buy-btn {
