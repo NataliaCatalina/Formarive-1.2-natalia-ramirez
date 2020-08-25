@@ -6,6 +6,7 @@
 
 .iyengar__calendar{
   width: 80%;
+  height: auto;
   // border: 1px solid red;
   margin: auto;
   h1{
@@ -15,22 +16,27 @@
   }
 }
 
-.week-calendar{
-  background: $gray-color;
-  // border: 2px solid $blue-color;
+.tableRow{
+ width:100%;
+ height: auto;
+ background: $gray-color;
+ border-radius: 0 0 10px 10px;
 }
 
-.weekday{
-  background: $blue-color;
-  color: white;
-  padding: 2% 0;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.015em
+.tableCol{
+ width:14%;
+ float:left;
+ background: $blue-color;
+ h1{
+   color: white;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: -0.015em;
+   border-left: 1px solid white;
+
+ }
 }
-
-
 
 .message-header{
   background: $light-blue-color;
@@ -61,52 +67,37 @@
   font-size: 14px;
 }
 
-.calendar__events--friday{
-  margin-top: -280px;
+
+.col02{       //zxjkhcvsuhfw8UGFw7g7WG7>>>???????
+  // margin-top: 3%;
 }
 
-.calendar__events--saturday{
-  margin-top: -150px;
-}
-
-.calendar__events--tuesday{
-
-}
- // NEW TIME table
-
- .tableRow{
-  width:100%;
-  background: gray;
-}
-
-.tableCol{
-  width:14%;
-  float:left;
-  background: lightblue;
-}
-.op{
+.op0{
   visibility: hidden;
 }
 
-.op01{
+.op01 {
+// margin-left: 2px;
+// margin-right: 3px;
 
 }
 
 .op02{
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .op03{
-  margin-top: 10%;
+  margin-top: 7%;
+  // padding-left: 3px;
+  // padding-right: 3px;
 
 }
 .op04{
-
-
+margin-top: -4%;
 }
 
 .op05{
-
+ // margin-top: 3%;
 }
 
 .op06{
@@ -114,17 +105,17 @@
 }
 
 .op07{
-
+// margin-top: 1%;
 }
 
 .op08{
-
+margin-top: 2%;
 }
 
 .op09{
-
+ // margin-top: 5%;
 }
 
 .op10{
-
+ // margin-top: 8%;
 }

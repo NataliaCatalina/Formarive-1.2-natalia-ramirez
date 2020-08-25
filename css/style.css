@@ -179,23 +179,30 @@ nav {
 
 .iyengar__calendar {
   width: 80%;
+  height: auto;
   margin: auto; }
   .iyengar__calendar h1 {
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px; }
 
-.week-calendar {
-  background: #EFF3F4; }
+.tableRow {
+  width: 100%;
+  height: auto;
+  background: #EFF3F4;
+  border-radius: 0 0 10px 10px; }
 
-.weekday {
-  background: #1E3141;
-  color: white;
-  padding: 2% 0;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.015em; }
+.tableCol {
+  width: 14%;
+  float: left;
+  background: #1E3141; }
+  .tableCol h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    border-left: 1px solid white; }
 
 .message-header {
   background: #7DCDE3;
@@ -223,29 +230,20 @@ nav {
   padding-bottom: 5%;
   font-size: 14px; }
 
-.calendar__events--friday {
-  margin-top: -280px; }
-
-.calendar__events--saturday {
-  margin-top: -150px; }
-
-.tableRow {
-  width: 100%;
-  background: gray; }
-
-.tableCol {
-  width: 14%;
-  float: left;
-  background: lightblue; }
-
-.op {
+.op0 {
   visibility: hidden; }
 
 .op02 {
-  margin-top: 5%; }
+  margin-top: 3%; }
 
 .op03 {
-  margin-top: 10%; }
+  margin-top: 7%; }
+
+.op04 {
+  margin-top: -4%; }
+
+.op08 {
+  margin-top: 2%; }
 
 .iyengar__membership--container {
   width: 100%;
