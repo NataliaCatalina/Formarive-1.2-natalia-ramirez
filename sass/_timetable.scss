@@ -62,7 +62,7 @@
 }
 
 .calendar__events--friday{
-  margin-top: -300px;
+  margin-top: -280px;
 }
 
 .calendar__events--saturday{
@@ -71,6 +71,60 @@
 
 .calendar__events--tuesday{
 
-  
+}
+ // NEW TIME table
+
+ .tableRow{
+  width:100%;
+  background: gray;
+}
+
+.tableCol{
+  width:14%;
+  float:left;
+  background: lightblue;
+}
+.op{
+  visibility: hidden;
+}
+
+.op01{
+
+}
+
+.op02{
+  margin-top: 5%;
+}
+
+.op03{
+  margin-top: 10%;
+
+}
+.op04{
+
+
+}
+
+.op05{
+
+}
+
+.op06{
+
+}
+
+.op07{
+
+}
+
+.op08{
+
+}
+
+.op09{
+
+}
+
+.op10{
 
 }
