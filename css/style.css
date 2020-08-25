@@ -321,9 +321,8 @@ body {
   font-size: 13px;
   line-height: 18px;
   color: #898989;
-  position: absolute;
-  margin-top: 3%;
-  width: 10%; }
+  margin-top: 25%;
+  width: 100%; }
 
 .buy-btn {
   text-decoration: none;
@@ -339,6 +338,9 @@ body {
   background: #7DCDE3;
   text-align: center;
   margin-top: 40%; }
+
+.extra-btn {
+  margin-top: 55%; }
 
 .extra__info--wrapper {
   width: 60%;
