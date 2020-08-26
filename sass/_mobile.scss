@@ -4,31 +4,29 @@
   box-sizing: border-box;
 }
 
-
 @media screen and (max-width: 500px){
 
 
-  .top__navegation--menu{
+.top__navegation--menu{
     // border: 1px solid black;
-    display: none;
+    // display: none;
     .top__navegation--list{
-      margin: 0 10px;
-      border: 1px solid maroon;
+      margin:10px;
+      // border: 1px solid maroon;
       color: $icon-font-colour;
       .nav-list{
         list-style: none;
         height: 40px;
-        width:100%;
-        background: pink;
-        margin: 1% 0;
+        width:90%;
+        background: $gray-color;
+        margin: 1%;
         text-align:center;
         // border: 1px solid maroon;
         font-size: 1.2rem;
         font-weight: bold;
         a:link{
-          color: maroon;
+          color: $light_blue_color;
           text-decoration: none;
-
         }
       }
     }
@@ -37,6 +35,7 @@
 .menu-icon-container{
   float: right;
   padding:10px 0;
+  // position: fixed;
   @include dimension(50%,100px);
   // border: 1px solid blue;
 }
@@ -47,5 +46,58 @@
   margin: 10px;
   float:right;
 }
+
+.header{
+  border: 1px solid red;
+}
+
+.blue-block{
+  // position: absolute;
+  width: 80%;
+  height: 200px;
+  background: $light-blue-color;
+  z-index : -1;/*send backward*/
+  float: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.logo{
+  position: absolute;
+  width: 70%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  top: 200px;
+}
+
+.socials a{
+  width: 20%;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  font-size: 35px;
+  margin-right: 1480px;
+  margin-top: 10px;
+  // border: 1px solid red;
+}
+
+.facebook {
+  background: transparent;
+  color: $blue-color;
+}
+
+.twitter {
+  background: transparent;
+  color: $blue-color;
+}
+
+.instagram {
+  background: transparent;
+  color: $blue-color;
+}
+
 
 }//mobile media query ends here

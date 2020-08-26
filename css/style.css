@@ -18,7 +18,7 @@
 
 .logo {
   position: absolute;
-  width: 35%;
+  width: 542px;
   margin: auto;
   left: 0;
   right: 0;
@@ -128,7 +128,8 @@
 .col__teacher {
   width: 33.1%;
   float: left;
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
   height: 820px; }
   .col__teacher h2 {
     text-align: center;
@@ -233,24 +234,21 @@
   box-sizing: border-box; }
 
 @media screen and (max-width: 500px) {
-  .top__navegation--menu {
-    display: none; }
-    .top__navegation--menu .top__navegation--list {
-      margin: 0 10px;
-      border: 1px solid maroon;
-      color: #010101; }
-      .top__navegation--menu .top__navegation--list .nav-list {
-        list-style: none;
-        height: 40px;
-        width: 100%;
-        background: pink;
-        margin: 1% 0;
-        text-align: center;
-        font-size: 1.2rem;
-        font-weight: bold; }
-        .top__navegation--menu .top__navegation--list .nav-list a:link {
-          color: maroon;
-          text-decoration: none; }
+  .top__navegation--menu .top__navegation--list {
+    margin: 10px;
+    color: #010101; }
+    .top__navegation--menu .top__navegation--list .nav-list {
+      list-style: none;
+      height: 40px;
+      width: 90%;
+      background: #EFF3F4;
+      margin: 1%;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold; }
+      .top__navegation--menu .top__navegation--list .nav-list a:link {
+        color: #7DCDE3;
+        text-decoration: none; }
 
   .menu-icon-container {
     float: right;
@@ -262,7 +260,51 @@
     font-size: 45px;
     color: #1E3141;
     margin: 10px;
-    float: right; } }
+    float: right; }
+
+  .header {
+    border: 1px solid red; }
+
+  .blue-block {
+    width: 80%;
+    height: 200px;
+    background: #7DCDE3;
+    z-index: -1;
+    /*send backward*/
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+
+  .logo {
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    top: 200px; }
+
+  .socials a {
+    width: 20%;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    font-size: 35px;
+    margin-right: 1480px;
+    margin-top: 10px; }
+
+  .facebook {
+    background: transparent;
+    color: #1E3141; }
+
+  .twitter {
+    background: transparent;
+    color: #1E3141; }
+
+  .instagram {
+    background: transparent;
+    color: #1E3141; } }
 .iyengar__timetable {
   width: 100%;
   height: auto; }
@@ -403,7 +445,7 @@
   margin-top: 40%; }
 
 .extra-btn {
-  margin-top: 61%; }
+  margin-top: 55%; }
 
 .extra__info--wrapper {
   width: 60%;
