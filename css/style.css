@@ -1,335 +1,79 @@
 @media screen and (max-width: 600px) {
-  .top__navegation--menu .top__navegation--list {
-    margin: 10px;
-    color: #010101; }
-    .top__navegation--menu .top__navegation--list .nav-list {
-      list-style: none;
-      height: 40px;
-      width: 90%;
-      background: #EFF3F4;
-      margin: 1%;
-      text-align: center;
-      font-size: 1.2rem;
-      font-weight: bold; }
-      .top__navegation--menu .top__navegation--list .nav-list a:link {
-        color: #7DCDE3;
-        text-decoration: none; }
+  .disappear {
+    display: none; }
+
+  .navigation-menu {
+    width: 100%;
+    border: 1px solid orange;
+    background: #EFF3F4;
+    margin: 0 auto;
+    text-align: center; }
+
+  .nav-link {
+    width: 100%;
+    border: 1px solid red;
+    text-align: center;
+    display: inline-block;
+    background: #EFF3F4;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #1E3141; }
+
+  .nav-link:hover {
+    color: #7DCDE3; }
 
   .menu-icon {
     font-size: 45px;
     color: #1E3141;
     margin: 10px;
-    float: right; }
+    float: right; } }
+@media screen and (min-width: 601px) and (max-width: 799px) {
+  .disappear {
+    display: none; }
 
-  .header {
-    border: 1px solid red; }
+  .navigation-menu {
+    width: 100%;
+    border: 1px solid orange;
+    background: #EFF3F4;
+    display: flex;
+    justify-content: space-around; }
 
-  .blue-block {
-    width: 80%;
-    height: 200px;
-    background: #7DCDE3;
-    z-index: -1;
-    /*send backward*/
-    float: left;
-    margin-top: 100px;
-    margin-bottom: 100px; }
-
-  .logo {
-    position: absolute;
-    width: 70%;
-    margin: auto;
-    left: 0;
-    right: 0;
+  .nav-link {
+    width: 20%;
+    border: 1px solid red;
     text-align: center;
-    z-index: 1;
-    top: 200px; }
-
-  .socials a {
-    width: 5%;
-    display: block;
-    text-align: center;
-    padding: 16px;
-    font-size: 35px;
-    margin-right: 1480px;
-    margin-top: 10px; }
-
-  .facebook {
-    background: transparent;
+    display: inline-block;
+    background: #EFF3F4;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
     color: #1E3141; }
 
-  .twitter {
-    background: transparent;
-    color: #1E3141; }
-
-  .instagram {
-    background: transparent;
-    color: #1E3141; }
-
-  .active {
-    display: block; } }
+  .nav-link:hover {
+    color: #7DCDE3; } }
 @media screen and (min-width: 800px) {
   .menu-icon {
     display: none; }
 
-  .top__navegation--menu {
-    position: fixed;
+  .navigation-menu {
     width: 100%;
-    height: 142px;
+    background: #EFF3F4;
+    display: flex;
+    justify-content: space-around; }
+
+  .nav-link {
+    width: 20%;
+    text-align: center;
+    display: inline-block;
     background: #EFF3F4;
     padding: 20px;
-    height: 100px;
-    display: block; }
-    .top__navegation--menu a:hover {
-      color: #7DCDE3; }
-    .top__navegation--menu .top__navegation--list {
-      text-align: center;
-      padding: 20px;
-      width: 90%; }
-      .top__navegation--menu .top__navegation--list .nav-list {
-        font-size: 20px;
-        list-style: none;
-        display: inline;
-        margin: 8%;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        color: #1E3141; }
-        .top__navegation--menu .top__navegation--list .nav-list .nav-link:link {
-          color: #1E3141;
-          text-decoration: none; }
-
-  .header {
-    overflow: auto; }
-
-  .blue-block {
-    width: 80%;
-    height: 360px;
-    background: #7DCDE3;
-    z-index: -1;
-    /*send backward*/
-    float: left;
-    margin-top: 300px;
-    margin-bottom: 220px; }
-
-  .logo {
-    position: absolute;
-    width: 542px;
-    margin: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 1;
-    top: 140px; }
-
-  .socials {
-    width: 20%;
-    float: left;
-    margin-top: 330px; }
-
-  .socials a {
-    width: 20%;
-    display: block;
-    text-align: center;
-    padding: 16px;
-    font-size: 35px;
-    margin-right: 1480px;
-    margin-top: 20px; }
-
-  .facebook {
-    background: transparent;
+    text-decoration: none;
+    font-size: 20px;
     color: #1E3141; }
 
-  .twitter {
-    background: transparent;
-    color: #1E3141; }
-
-  .instagram {
-    background: transparent;
-    color: #1E3141; }
-
-  .iyengar__images--container {
-    width: 60%;
-    margin: auto; }
-
-  .iyengar-images {
-    width: 32%;
-    padding-top: 50px;
-    padding-bottom: 50px; }
-
-  .quote {
-    width: 100%;
-    background: #EFF3F4; }
-
-  .quote h2 {
-    color: #1E3141;
-    width: 60%;
-    font-family: Nunito;
-    font-style: italic;
-    text-align: center;
-    line-height: 33px;
-    margin: auto;
-    padding-top: 60px;
-    padding-bottom: 60px; }
-
-  .introduction__row--container {
-    background: #EFF3F4;
-    width: 100%;
-    height: auto; }
-
-  .iyengar__row--container {
-    background: #EFF3F4;
-    width: 100%;
-    padding-top: 60px; }
-
-  .text__container--iyengar1, .text__container--iyengar2 {
-    float: left;
-    width: 50%;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 26px; }
-    .text__container--iyengar1 p, .text__container--iyengar2 p {
-      width: 60%; }
-
-  .text__container--iyengar1 p {
-    float: right;
-    margin-right: 50px; }
-
-  .text__container--iyengar2 p {
-    float: left;
-    margin-left: 50px; }
-
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table; }
-
-  .about-container {
-    width: 67%;
-    margin: auto; }
-    .about-container h1 {
-      padding-bottom: 60px; }
-
-  .about-container p {
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 26px; }
-
-  .introduction__row--team {
-    background: #EFF3F4;
-    width: 100%;
-    height: auto; }
-    .introduction__row--team h1 {
-      text-align: center;
-      padding-top: 60px; }
-
-  .col__team {
-    background: #EFF3F4;
-    height: auto;
-    float: left;
-    padding: 10px;
-    margin: 0%; }
-
-  .col__team--border {
-    width: 90%;
-    height: auto;
-    margin: auto; }
-
-  .col__teacher {
-    width: 33.1%;
-    float: left;
-    padding-left: 5%;
-    padding-right: 5%;
-    height: 820px; }
-    .col__teacher h2 {
-      text-align: center;
-      margin-bottom: 5%; }
-      .col__teacher h2 p {
-        font-size: 19px;
-        line-height: 26px; }
-
-  .teacher-photos {
-    width: 100%;
-    height: auto; }
-
-  .line {
-    border: 1px solid black;
-    width: 60%;
-    margin: auto;
-    margin-bottom: 5%; }
-
-  .iyengar__timetable {
-    width: 100%;
-    height: auto; }
-
-  .iyengar__calendar {
-    width: 80%;
-    height: auto;
-    margin: auto; }
-
-  .tableRow {
-    width: 100%;
-    height: auto;
-    background: #EFF3F4;
-    border-radius: 0 0 10px 10px; }
-
-  .tableCol {
-    width: 14.28%;
-    float: left;
-    background: #1E3141; }
-    .tableCol h1 {
-      color: white;
-      font-weight: bold;
-      font-size: 16px;
-      line-height: 24px;
-      letter-spacing: -0.015em;
-      border-left: 1px solid white;
-      text-align: center;
-      padding-top: 30px;
-      padding-bottom: 30px; }
-
-  .message-header {
-    background: #7DCDE3;
-    color: white;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 128.91%;
-    letter-spacing: -0.015em;
-    text-align: center;
-    border-radius: 10px 10px 0 0;
-    padding: 5%;
-    margin: 0.1%; }
-
-  .message-text {
-    background: white;
-    font-size: 14px;
-    border-radius: 0 0 10px 10px;
-    padding: 5%;
-    margin: 0.1%; }
-
-  .class__descriptions {
-    text-align: center;
-    color: #1E3141;
-    font-weight: bold;
-    padding-bottom: 5%;
-    font-size: 14px; }
-
-  .op0 {
-    visibility: hidden; }
-
-  .op02 {
-    margin-top: 3%; }
-
-  .op03 {
-    margin-top: 7%; }
-
-  .op04 {
-    margin-top: -4%; }
-
-  .op07 {
-    margin-top: 6%; }
-
-  .op08 {
-    margin-top: 6%; }
+  .nav-link:hover {
+    color: #7DCDE3; }
 
   .iyengar__membership--container {
     width: 100%;
@@ -447,116 +191,19 @@
         line-height: 29px; }
 
   .vouchers-photo {
-    width: 130%; }
-
-  .iyengar__contact--container {
-    width: 100%;
-    height: auto;
-    margin-top: 7%; }
-
-  .contact--container {
-    width: 80%;
-    height: auto;
-    margin: auto; }
-
-  .content-wrapper {
-    text-align: center;
-    width: 80%;
-    height: auto;
-    padding-left: 15%; }
-    .content-wrapper h1 {
-      font-style: normal;
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 29px;
-      color: #898989;
-      margin: 2% 0; }
-      .content-wrapper h1 p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 25px; }
-
-  .section__contact--form {
-    margin-bottom: 10%; }
-
-  form input, form textarea {
-    border: none;
-    border: #333 solid 1px;
-    display: block;
-    margin: 2px;
-    width: 100%;
-    text-indent: 10px; }
-
-  form input {
-    height: 40px; }
-
-  form textarea {
-    height: 120px;
-    padding-top: 1px; }
-
-  #sumit {
-    float: right;
-    width: 20px; }
-
-  .info-form {
-    width: 50%;
-    height: 100%;
-    float: left;
-    text-align: left; }
-
-  .address-map {
-    width: 50%;
-    height: 100px;
-    float: left; }
-
-  .map {
-    width: 100%; }
-
-  .contact-form {
-    width: 500px; }
-
-  .footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 15vh;
-    background-color: #1E3141; }
-    .footer p {
-      font-size: 17px;
-      color: white;
-      line-height: 23px; }
-
-  .footer_logo {
-    width: 10%;
-    height: auto; }
-
-  .social {
-    width: 60px;
-    height: 60px;
-    padding: 10px; } }
+    width: 130%; } }
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Nunito', sans-serif; }
+  box-sizing: border-box; }
 
 header {
   background: #7DCDE3; }
 
 body {
+  width: 100%;
   height: 100%;
-  background-color: white; }
-
-.iyengar__content--title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 65px;
-  color: #1E3141;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 60px; }
+  background-color: white;
+  font-family: 'Nunito', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

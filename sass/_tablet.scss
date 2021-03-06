@@ -1,6 +1,36 @@
 @media screen and (min-width: 601px) and (max-width: 799px){
+//////////////////////// NAV
 
 
-    
+.disappear{
+  display: none;
+}
+
+.navigation-menu {
+  width: 100%;
+  border: 1px solid orange;
+  background: $gray-color;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.nav-link {
+  
+  width: 20%;
+  border: 1px solid red;
+  text-align: center;
+  display: inline-block;
+  background: $gray-color;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: $blue-color;
+
+}
+
+.nav-link:hover {
+  color: $light_blue_color;
+}
 
 } //end of Tablet screen

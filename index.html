@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <!-- include this tag to make the website responsive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
@@ -13,8 +13,15 @@
     <main>
 
       <!-- navegation menu -->
-      <i class="fas fa-bars menu-icon"></i>
-
+      <!-- <i class="fas fa-bars menu-icon"></i> -->
+      <button class="menu-icon" onclick="accion()"><i class="fas fa-bars menu-icon"></i></button>
+      <nav class="navigation-menu disappear">
+          <a class="nav-link disappear" href="#home">Home</a>
+          <a class="nav-link disappear" href="#timetable">Timetable</a>
+          <a class="nav-link disappear" href="#membership">Membership</a>
+          <a class="nav-link disappear" href="#contact">Contact</a>
+      </nav>
+<!-- 
       <nav class="top__navegation--menu">
         <ul class="top__navegation--list">
           <li class="nav-list"><a class="nav-link" href="#home">Home</a></li>
@@ -22,7 +29,7 @@
           <li class="nav-list"><a class="nav-link" href="#membership">Membership</a></li>
           <li class="nav-list"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
-      </nav>
+      </nav> -->
 
         <!-- banner and header -->
       <section id="home">
